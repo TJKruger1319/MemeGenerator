@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="control.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="changeColor">Meme Generator</h1>
+    <h2 class="changeColor">Select meme template:</h2>
+    <form action="" id="memeform">
+        <input class="clickAble" type="radio" name="image" id="wojack">
+        <img class="meme" src="/meme_generator/images/wojack.jpg" alt="">
+        <input class="clickAble" type="radio" name="image" id="thewhat">
+        <img class="meme" src="/meme_generator/images/thewhat.jpg" alt="">
+        <input class="clickAble" type="radio" name="image" id="Tom">
+        <img class="meme" src="/meme_generator/images/Tom.jpg" alt="">
+        <input class="clickAble" type="radio" name="image" id="Pikachu">
+        <img class="meme" src="/meme_generator/images/Pikachu.jpg" alt="">
+        <p>
+            <label for="">Meme text:
+            <input type="text" placeholder="" name="memetext">
+            </label>
+        </p>
+
+        <p> 
+            <input class="clickAble" type="submit" value="Submit">
+        </p>
+        
+    </form>
+    <section id="results">
+    </section>
+    <script src="gen.js"></script>
+</body>
+</html>

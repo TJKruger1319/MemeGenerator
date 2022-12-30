@@ -1,0 +1,53 @@
+.meme {
+    position: static;
+    height: 400px;
+    width: 400px;
+}
+
+.changeColor {
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.clickAble {
+    cursor: pointer;
+}
+
+.newMeme {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+
+.newDiv {
+    position: relative;
+}
+
+.memeText {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    color: black;
+    z-index: 1;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.deleteButton {
+    position: absolute;
+    bottom: -440px;
+    left: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-size: x-large;
+    font-family: 'Chivo Mono', monospace;
+}
