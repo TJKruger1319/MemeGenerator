@@ -32,6 +32,6 @@ function createMeme(image, text) {
     deleteButton.classList.add("deleteButton");
     meme.appendChild(deleteButton);
         
-    
+    //testing
     return meme;
 }
