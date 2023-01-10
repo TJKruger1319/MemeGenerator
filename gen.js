@@ -4,7 +4,6 @@ const results = document.querySelector('#results');
 form.addEventListener(
     'submit', function(e) {
     e.preventDefault();
-    results.innerHTML = '';
     const image = document.querySelector('input[name="image"]:checked').id;
     const textInput = document.querySelector('input[name="memetext"]').value;
     newMeme = createMeme(image, textInput);
@@ -32,6 +31,5 @@ function createMeme(image, text) {
     deleteButton.classList.add("deleteButton");
     meme.appendChild(deleteButton);
         
-    //testing
     return meme;
 }
