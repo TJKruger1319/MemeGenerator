@@ -26,7 +26,7 @@ function createMeme(image, text) {
     const deleteButton = document.createElement("button");
     deleteButton.innerText = "Delete!";
     deleteButton.addEventListener('click', function(e){
-        results.innerHTML = '';  
+        meme.innerHTML = '';  
     }); 
     deleteButton.classList.add("deleteButton");
     meme.appendChild(deleteButton);

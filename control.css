@@ -33,8 +33,9 @@
 }
 .deleteButton {
     position: absolute;
-    bottom: -440px;
-    left: 0;
+    bottom: 175px;
+    left: 425px;
+    font-size: 24px;
 }
 
 body {
