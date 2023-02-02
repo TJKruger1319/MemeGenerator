@@ -32,8 +32,10 @@
     font-weight: bold;
 }
 .deleteButton {
-    bottom: 10px;
-    left: 0;
+    position: absolute;
+    bottom: 170px;
+    left: 405px;
+    font-size: large;
 }
 
 body {
