@@ -32,14 +32,12 @@
     font-weight: bold;
 }
 .deleteButton {
-    position: absolute;
-    bottom: 175px;
-    left: 425px;
-    font-size: 24px;
+    bottom: 10px;
+    left: 0;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(19, 16, 16);
 }
 
 h1 {

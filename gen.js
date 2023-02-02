@@ -20,7 +20,7 @@ function createMeme(image, text) {
     p.innerText = text;
     meme.appendChild(p);
     p.classList.add("memeText");
-    img.src = "/meme_generator/images/"+image+".jpg";
+    img.src = "images/"+image+".jpg";
     img.classList.add("newMeme");
     meme.append(img);
     const deleteButton = document.createElement("button");
